@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="index.css">
+        <title>ENSI</title>
+    </head>
+    
+    <body>
+        
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <div class="s-topbar--searchbar--input-group">
+                        <button type="submit" class="btn btn-primary" ><a href="https://www.ensi.ma/"><i class="bi bi-key-fill" ></i> <h1>ENSI</h1></button></div>
+                </div>
+                <input type="checkbox" id="click">
+    
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#" class="active" style="--navAni:1">Accueil</a></li>
+                    <li><a href="" style="--navAni:2">Profil</a></li>
+                    <li><a href="#" style="--navAni:4">les utilisateurs</a></li>
+                    <li><a href="#" style="--navAni:4">Les questions</a></li>
+
+                        <li><a href="#" style="--navAni:3">Boîte de réception</a></li>
+                              <li> <a href="TJ2/index.html">Déconnexion</a></li>
+
+                </ul>
+            </div>
+        </header>
+    
+    </body>
+    </html>
+
+
+    <main>
+       <center> <h1>Ask a public question</h1></center>
+        <div id="questions-container">
+        </div>
+
+        <div id="ask-form">  
+             <p>
+                <li>Résumez votre qestion au votre problème dans un titre d’une seule ligne.</li>
+                <br>
+               <li> Décrivez votre problème plus en détail.</li>
+                <br>
+              <li>  Décrivez ce que vous avez essayé et ce à quoi vous vous attendiez.</li>
+                <br>
+                
+               <li>Passez en revue votre question et publiez-la sur le site.</li> 
+                <br>
+           <li>Présentez le problème et développez ce que vous mettez dans le titre. Minimum 20 caractères.</li>
+        </div>
+    </main>
+
+    <main>
+        <div id="questions-container">
+        </div>
+
+        <div id="ask-form">  
+             <p><h1>Quels Sont les détails de votre question</h1>
+<br>
+            <form id="question-form">
+             
+                <textarea id="question" name="question" rows="4" required></textarea>
+                <button type="submit">Ask</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
